@@ -1,0 +1,66 @@
+/*Utility class for borders
+.border-green {
+    border: 1px solid green;
+} */
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/7/7c/GSUblackout2016.png");
+    background-size: cover;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 68px;
+}
+
+.score {
+    background: #080001;
+    width: 155px;
+    height: 120px;
+    color: #F94F6D;
+    font-size: 90px;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 575px;
+    height: 385px;
+    margin: 0 auto;
+    background: #1B244A;
+    color: #EEEEEE;
+    margin-top: 50px;
+}
+
+button {
+    background: none;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    color: #9AABD8;
+}
+
+.new-game {
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    width: 100px;
+    height: 45px;
+    color: #9AABD8;
+}
+
+
+button:hover {
+    border-color: #EEEEEE;
+    color: #EEEEEE;
+    cursor: pointer;
+}
+
